@@ -35,3 +35,7 @@ while True:
     else:
 
         print random.choice(["Give me a longer extract","Your phrase is too short","Type a longer phrase"])
+        
+import platform
+if platform.system()=='Windows':
+    input()
